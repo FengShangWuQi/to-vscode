@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "vscode-plugin",
+  "main": "README.md",
+  "author": "fengshangwuqi <fengshangwuqi@gmail.com>",
+  "devDependencies": {
+    "@fengshangwuqi/dev-deps": "1.0.13"
+  },
+  "license": "MIT"
+}
