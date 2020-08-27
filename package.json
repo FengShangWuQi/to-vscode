@@ -1,8 +1,24 @@
 {
   "private": true,
   "name": "vscode-plugin",
-  "main": "README.md",
+  "keywords": [
+    "vscode"
+  ],
   "author": "fengshangwuqi <fengshangwuqi@gmail.com>",
+  "scripts": {
+    "format": "yarn prettier --write '**/*.{json,md}'"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged",
+      "commit-msg": "npx commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "devDependencies": {
     "@fengshangwuqi/dev-deps": "1.0.13"
   },
