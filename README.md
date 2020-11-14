@@ -50,12 +50,17 @@
 调试应用
 
 ```JSON
- {
-    "type": "chrome",
-    "request": "launch",
-    "name": "Launch Chrome against localhost",
-    "url": "http://localhost:8000",
-    "webRoot": "${workspaceFolder}"
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch Chrome against localhost",
+      "url": "http://localhost:8000",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
 }
 ```
 
@@ -63,11 +68,16 @@
 
 ```JSON
 {
-    "name": "Launch",
-    "type": "node",
-    "request": "launch",
-    "runtimeExecutable": "npx",
-    "args": ["ts-node", "${file}"],
-    "skipFiles": ["<node_internals>/**"]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "npx",
+      "args": ["ts-node", "${file}"],
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
 }
 ```
