@@ -28,6 +28,10 @@
 - [Auto Import](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport)
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 
+正则
+
+- [any-rule](https://marketplace.visualstudio.com/items?itemName=russell.any-rule)
+
 浏览器
 
 - [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
